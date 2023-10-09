@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>ANTICENTENNIAL</title>
+</head>
+<body>
+    <div class="div-grid-container">
+    <header class="header">
+        <a href="#">
+            <!--Logo principal-->
+            <img src="../assets/logo.png" alt="logo mano cornuta">
+        </a>
+        <!--Seccion navegable del menu-->
+        <nav>
+            <ul><li><a href="../index.html">inicio</a></li>
+                <li><a href="./pages/sobre_nosotros.html" >sobre nosotros</a></li>
+                <li><a href="./pages/galeria.html">galeria</a></li>
+                <li><a href="./pages/tienda.html">tienda</a></li>
+                <li><a href="./pages/contacto.html">contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <h1>
+            Las bandas del fin del milenio que hicieron historia de la A a la Z
+        </h1>
+        <div class="abecedario">
+        <a href="../index.html">A</a><a href="./B">B</a><a href="#gotoC">C</a><a href="#gotoD">D</a><a href="#gotoE">E</a><a href="#gotoF">F</a><a href="#gotoG">G</a><a href="#gotoH">H</a><a href="#gotoI">I</a><a href="#gotoJ">J</a><a href="#gotoK">K</a><a href="#gotoL">L</a><a href="#gotoM">M</a><a href="#gotoN">N</a><a href="#gotoO">O</a><a href="#gotoP">P</a><a href="#gotoQ">Q</a><a href="#gotoR">R</a><a href="#gotoS">S</a><a href="#gotoT">T</a><a href="#gotoU">U</a><a href="#gotoV">V</a><a href="#gotoW">W</a><a href="#gotoX">X</a><a href="#gotoY">Y</a><a href="#gotoZ">Z</a>
+        </div>
+        <h2>
+            <a name="gotoB">BON JOVI</a>
+        </h2>
+    </main>
+        <div class="video-container">
+        <iframe src="../assets/BON JOVI.mp4" frameborder="0" autoplay="false"></iframe>
+        </div>
+        <aside class="aside">
+            <p>
+                Jon Francis Bongiovi, más conocido como Jon Bon Jovi, nace en 1962 en Perth Amboy, New Jersey. Hijo de Frank Bongiovi (ex-marine), su madre, una antigua miss, intenta adentrarle en el mundo de la música, pero el tema no le atrae hasta varios años después, tras asistir a algunos conciertos.
+
+                Comienza a tocar en una banda de rythm'n'blues, Atlantic City Expressway, conocida en el ambiente musical de New Jersey. Conoce a Dave Bryan, con quien colaborará después en proyectos de mayor calado. Más tarde se cambian el nombre por The Rest, y durante un concierto, acude a verlos el primo de Jon,Tony Bongiovi, el cual posee un estudio de grabación bastante conocido, Power Station, en el cual han grabado ilustres grupos y cantantes. Era finales de los 80 y a Jon no acababa de convencerle su situación musical, así que decide irse a vivir con su primo a Nueva York durante un par de años.
+
+                Tiene la posibilidad de ver grabar a grandes artistas: Queen, David Bowie, Talking Heads, The Rolling Stones, Ramones... y consigue grabar una maqueta con un tema, Runaway, que tiempo después sería un gran éxito.
+
+                Junto a Dave Bryan crea un grupo, Wild Ones, que resultó ser un fracaso en sus actuaciones en directo y que no fue capaz de conseguir el patrocinio de ninguna discográfica.
+
+                Llevó una cinta de Runaway a la estación WAPP FM, la cual la incluyó en un disco de nuevos grupos. Su tema fue muy bien acogido por el público y obtuvo varias ofertas de compañias discográficas. Finalmente, en julio de 1983, firma un contrato con Polygram, que le da libertad para contratar a los músicos que considere necesarios para la creación de su nueva banda, Bon Jovi. Jon recluta a su amigo David Bryan y al bajista Alec John Such. A instancia de éste último, contrataron al batería Hector "Tico" Torres, completando la bando el guitarrista Richie Sambora.
+
+                Su primer disco sale en 1984, y el primer single fue Runaway, su primer éxito. Consiguieron un notable resultado en ventas, a pesar de ser un grupo de rock duro, menos acostumbrados a vender.
+
+                El segundo disco, 7800 Degrees Farhenheit aparece en 1985. Tuvo un resultado más discreto y hubo que esperar al tercer álbum, Slippery When Wet (1986), para ver el triunfo definitivo de la banda. Con este trabajo consiguieron llegar al número uno de las listas de éxitos y propició una gira de más de un año por todo el mundo.
+
+                En 1988 publican New Jersey, una repetición de la fórmula empleada en el disco anterior y que les sirvió para repetir con un rotundo éxito. Un disco cargado de sentimiento en el que se refleja una mayor madurez del grupo, probando nuevos estilos. La gira para este disco es muy larga (en mitad de la cual Jon se casa con Dorothea Hurley,a quien conoció cuando estudiaba) y acaba crispando a los miembros de la banda que deciden tomarse un descanso.
+
+                En 1990 sale a la luz Blaze Of Glory de Jon Bon Jovi, la banda sonora de la película Arma Joven, con la que Jon optó al Oscar de Hollywood y con el que ganó el premio al mejor single de los premios Award.
+
+                En 1992, tras cambiar de mánager, publican Keep The Faith, llegando nuevamente a ser número uno y quizás el mejor del grupo. El ritmo se endureció un poco y las letras maduraron. Con esta renovación se incrementaron los fans de la banda, llegando a vender diez millones de copias del disco.
+
+                En 1995 sale a la luz el recopilatorio Cross Road en el que graban dos temas nuevos Someday I'll Be Saturday Night y la balada Always que de nuevo les encumbra a lo más alto de las listas. En solo cinco semanas llegaron a vender cinco millones de copias. En esta época Alec deja el grupo y contrata al bajista Huey McDonald para ocupar su lugar.
+
+                En mayo de 2000 lanzan Crush con un It's My Life como single, pero no consigue tanto éxito como en los anteriores.
+
+                La canción de Crush Wild Wild Night da nombre a su primer disco en directo que sale en el año 2001, el cual icluye una versión del tema de Bob Geldof I Don't Like Mondays.
+
+                En 2002 publican un nuevo álbum, Bounce. 12 nuevas composiciones, tanto baladas como temas rockeros, hacen uso de la narrativa y música de éxitos anteriores del grupo. Grabado en el Estado natal del grupo, Nueva Jersey, el disco muestra a Jon Bon Jovi y a Richie Sambora como productores junto a Luke Ebbin.
+
+                2003 es el año de This left feels right, un disco en acústico en el que presentan una nueva visión de muchos de sus grandes éxitos.
+            </p>
+        </aside>
+        <section class="section">
+            <h3>Ciudad de surgimiento de la banda </h3>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48527.91324515759!2d-74.31034725567416!3d40.51961093265215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3b580bd90cf71%3A0x5ec1edff2ec8c9f1!2sPerth%20Amboy%2C%20Nueva%20Jersey%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1695583761494!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+    <!--Titulo principal del sitio-->
+    <footer class="footer">
+        <div class="footer-container">
+            <!--Enlaces de redes sociales -->
+            <div class="social-links">
+                <a href="#" target="_blank">Facebook</a>
+                <a href="#" target="_blank">Twitter</a>
+                <a href="#" target="_blank">Instagram</a>
+            </div>
+
+            <!--Enlaces a políticas legales -->
+            <div class="legal-links">
+                <a href="politica-de-privacidad.html">Política de Privacidad</a>
+            </div>
+
+            <!--Información de copyright -->
+            <div class="copyright">
+                &copy; 2023 ANTICENTENNIAL. Todos los derechos reservados.
+            </div>
+
+            <!--Botón de retorno arriba -->
+            <div class="scroll-to-top">
+                <a href="#top">ir arriba</a>
+            </div>
+
+            <!--Información de contacto de soporte -->
+            <div class="support-contact">
+                Soporte: <a href="tel:+541155556666">(+54) 911-5555-6666</a> | <a href="mailto:soporte@anticentennial.com.ar">soporte@anticentennial.com.ar</a>
+            </div>
+        </div>
+    </footer>
+    </div>
+    
+</body>
+</html>
