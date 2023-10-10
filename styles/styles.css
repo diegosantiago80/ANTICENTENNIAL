@@ -22,6 +22,14 @@ body{
     background-image: url(../assets/foto1.jpg);
 }
 
+.body__contacto{
+  background-image: url(../assets/banner3.jpg);
+}
+
+.main__titulo_form{
+  background-color: #111111;
+  padding: 16px;
+}
 .abecedario{
     font-size:xx-large;
     font-weight: 700;
@@ -120,6 +128,7 @@ p{
 .sobrenosotros{
    
     margin-top: 20px;
+    font-size: medium;
 }
 
 
@@ -236,7 +245,22 @@ input[type="reset"]:focus{
       .grid-item-9,
       .grid-item-10,
       .grid-item-11,
-      .grid-item-12 {
+      .grid-item-12,
+      .grid-item-13,
+      .grid-item-14,
+      .grid-item-15,
+      .grid-item-16,
+      .grid-item-17,
+      .grid-item-18,
+      .grid-item-19,
+      .grid-item-20,
+      .grid-item-21,
+      .grid-item-22,
+      .grid-item-23,
+      .grid-item-24,
+      .grid-item-25,
+      .grid-item-26,
+      .grid-item-27 {
         width: 100%; 
         max-width: 100%; 
       }
@@ -358,4 +382,33 @@ input[type="reset"]:focus{
     width: 100%;
   }
   
+
+/*GRID en sobre_nosotros*/
+
+.sobre_nosotros__container {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-gap: 20px;
+  align-items: center;
+  grid-template-areas: 
+    "sobre_nosotros__images sobre_nosotros__content sobre_nosotros__images2";
+}
+
+
+
+.sobre_nosotros__images{
+  grid-area: sobre_nosotros__images;
+}
+
+.sobre_nosotros__content{
+  grid-area: sobre_nosotros__content;
+}
+
+.sobre_nosotros__images2{
+  grid-area: sobre_nosotros__images2;
+}
+
+
+
+
 
