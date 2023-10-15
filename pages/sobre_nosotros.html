@@ -9,31 +9,43 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles/styles.css">
+    <script src="https://kit.fontawesome.com/9090eea6b1.js" crossorigin="anonymous"></script>
     <title>sobre nosotros</title>
 </head>
 <body>
-    <header class="sobre_nosotros__header">
-        <a href="../index.html"> 
-            <img src="../assets/logo.png" alt="logo mano cornuta">
-        </a>
-       
-        <nav>
-            <ul>
-                <li><a href="../index.html">inicio</a></li>
-                <li><a href="#">sobre_nosotros</a></li>
-                <li><a href="./galeria.html">galeria</a></li>
-                <li><a href="./tienda.html">tienda</a></li>
-                <li><a href="./contacto.html">contacto</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <nav class="navbar  navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">
+                <img class="logo" src="../assets/varios/logo.png" alt="logo mano cornuta">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <svg xmlns="http://www.w3.org/2000/svg" height="2rem"
+                fill="none" viewBox="0 0 24 24" strokeWidth={1.5} 
+                stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3.75
+                 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                  </svg>
+                </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/sobre_nosotros.html   ">Sobre nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/galeria.html">Galeria</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/tienda.html">Tienda</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/contacto.html">Contacto</a>
+                  </li>
+                </div>
+            </div>
+          </nav>
     </header>
     <main class="sobre_nosotros__main">
-        <div class="sobre_nosotros__container">
-            <div class="sobre_nosotros__images">
-                <img src="../assets/banner.jpg" alt="Imagen bandas 1">
-                <img src="../assets/banner2.jpg" alt="banner bandas 2">
-                <img src="../assets/banner3.jpg" alt="banner bandas 3">
-            </div>
             <div class="sobre_nosotros__content">
                 <h1>PORQUE ANTICENTENNIAL?</h1>
                 <p class="sobrenosotros">
@@ -51,10 +63,8 @@
                 pero no se apuren, porque dentro de 20 años van a seguir estando ahi ...
                 </p>
             </div>
-            <div class="sobre_nosotros__images2">
-                <img src="../assets/banner.jpg" alt="banner bandas 1">
-                <img src="../assets/banner2.jpg" alt="banner bandas 2">
-                <img src="../assets/banner3.jpg" alt="banner bandas 3">
+            <div class="sobre_nosotros__banner">
+                <img src="../assets/banners/manos.gif">
             </div>
         </div>
     </main>
@@ -62,9 +72,9 @@
         <div class="footer-container">
             <!--Enlaces de redes sociales -->
             <div class="social-links">
-                <a href="https://www.facebook.com/?locale=es_LA" target="_blank">Facebook</a>
-                <a href="https://twitter.com/?lang=es" target="_blank">Twitter</a>
-                <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                <a href="https://www.facebook.com/?locale=es_LA" target="_blank"><i class="fa-brands fa-facebook fa-fade"></i></a>
+                <a href="https://twitter.com/?lang=es" target="_blank"><i class="fa-brands fa-x-twitter fa-fade"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-fade"></i></a>
             </div>
 
             <!--Enlaces a políticas legales -->
@@ -84,7 +94,7 @@
 
             <!--Información de contacto de soporte -->
             <div class="support-contact">
-                Soporte: <a href="tel:+541155556666">(+54) 911-5555-6666</a> | <a href="mailto:soporte@anticentennial.com.ar">soporte@anticentennial.com.ar</a>
+                <a href="tel:+541155556666">Soporte: (+54) 911-5555-6666</a> | <a href="mailto:soporte@anticentennial.com.ar">soporte@anticentennial.com.ar</a>
             </div>
         </div>
     </footer>

@@ -10,9 +10,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles/styles.css">
     <script src="https://kit.fontawesome.com/9090eea6b1.js" crossorigin="anonymous"></script>
-    <title>contacto</title>
+    <title>ANTICENTENNIAL</title>
 </head>
-<body class="body__contacto">
+<body>
+    
+     <!----------------------------Menu hamburguesa con BOOTSRAP------------------------- -->
     <header class="header">
         <nav class="navbar  navbar-expand-lg">
             <div class="container-fluid">
@@ -45,24 +47,38 @@
             </div>
           </nav>
     </header>
-    <main>
-        <div class="main__titulo_form">
-        <h1>Dejanos tu sugerencia, consulta o lo que quieras!</h1>
+     <!---------------------------------Comienzo del Main----------------------------------------------->
+     <div class="div-grid-container">
+        <main class="main">
+        <h1>
+            AC/DC
+        </h1>
+        <div class="abecedario">
+        <a href="#">A</a><a href="./B">B</a><a href="#gotoC">C</a><a href="#gotoD">D</a><a href="#gotoE">E</a><a href="#gotoF">F</a><a href="#gotoG">G</a><a href="#gotoH">H</a><a href="#gotoI">I</a><a href="#gotoJ">J</a><a href="#gotoK">K</a><a href="#gotoL">L</a><a href="#gotoM">M</a><a href="#gotoN">N</a><a href="#gotoO">O</a><a href="#gotoP">P</a><a href="#gotoQ">Q</a><a href="#gotoR">R</a><a href="#gotoS">S</a><a href="#gotoT">T</a><a href="#gotoU">U</a><a href="#gotoV">V</a><a href="#gotoW">W</a><a href="#gotoX">X</a><a href="#gotoY">Y</a><a href="#gotoZ">Z</a>
         </div>
-        <div class="formulario">
-            <form>
-                <input type="text" placeholder="ingrese su nombre" required>
-                <input type="email" placeholder="ingrese su e-mail" required>
-                <textarea id="mensaje" name="mensaje" rows="13" cols="30" required placeholder="ingrese su mensaje"></textarea>
-                <input type="reset">
-                <input type="submit">
-                
-            </form>
-        </div>
-
-
+       
     </main>
-    <footer class="footer">
+        <div class="video-container">
+        <iframe src="../assets/videos/ACDC.mp4" frameborder="0"></iframe>
+        </div>
+        <aside class="aside">
+            <p>
+                AC/DC es una influyente banda de hard rock británico-australiana formada en 1973 por los hermanos Malcolm y Angus Young en Australia. Han vendido unos 200 millones de álbumes, realizado giras globales y contribuido a bandas sonoras de películas destacadas. Con su icónico guitarrista Angus Young en uniforme de colegial, sus enérgicas actuaciones en vivo son un sello distintivo. A pesar de cambios iniciales en la alineación, la llegada del carismático vocalista Bon Scott en 1974 fue crucial para su éxito. Después de trasladarse a Glasgow en pleno auge del punk rock, ganaron gran popularidad. Su álbum "Highway to Hell" los catapultó a la fama, pero la tragedia golpeó con la muerte de Bon Scott en 1980. Brian Johnson asumió el rol de vocalista y el álbum "Back in Black" fue un homenaje exitoso. A pesar de altibajos en la década de 1980, la banda continuó su éxito en la década de 1990 y más allá. En 2014, Malcolm Young se retiró debido a la demencia, y la banda siguió con su sobrino Stevie Young en la guitarra rítmica. Brian Johnson se retiró temporalmente en 2016, siendo reemplazado por Axl Rose. Cliff Williams anunció su salida en 2016. A pesar de los desafíos, AC/DC sigue siendo una de las bandas más influyentes y taquilleras en la historia del rock, y están en el Salón de la Fama del Rock and Roll desde 2003. Aunque se les clasifica como hard rock y han influido en el heavy metal, su música se define simplemente como rock and roll.
+        </aside>
+        <section class="section">
+            <h2>
+                Surgimiento de la banda
+            </h2>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424146.70759886585!2d150.60232150788846!3d-33.84723486917716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b129838f39a743f%3A0x3017d681632a850!2sS%C3%ADdney%20Nueva%20Gales%20del%20Sur%2C%20Australia!5e0!3m2!1ses!2sar!4v1694961669141!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <div class="index__playlist">
+          <h2>
+            Escucha un poco mas y seguilos en SPOTIFY!!
+        </h2>
+          <iframe clas="playlist" style="border-radius:12px" src="https://open.spotify.com/embed/artist/711MCceyCBcFnzjGY4Q7Un?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+         <!--------------------------------------Comienzo del footer-------------------------------------->
+        <footer class="footer">
         <div class="footer-container">
             <!--Enlaces de redes sociales -->
             <div class="social-links">
@@ -92,6 +108,8 @@
             </div>
         </div>
     </footer>
+    </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

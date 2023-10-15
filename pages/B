@@ -4,91 +4,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles/styles.css">
+    <script src="https://kit.fontawesome.com/9090eea6b1.js" crossorigin="anonymous"></script>
     <title>ANTICENTENNIAL</title>
 </head>
 <body>
-    <div class="div-grid-container">
+    
+     <!----------------------------Menu hamburguesa con BOOTSRAP------------------------- -->
     <header class="header">
-        <a href="#">
-            <!--Logo principal-->
-            <img src="../assets/logo.png" alt="logo mano cornuta">
-        </a>
-        <!--Seccion navegable del menu-->
-        <nav>
-            <ul><li><a href="../index.html">inicio</a></li>
-                <li><a href="./pages/sobre_nosotros.html" >sobre nosotros</a></li>
-                <li><a href="./pages/galeria.html">galeria</a></li>
-                <li><a href="./pages/tienda.html">tienda</a></li>
-                <li><a href="./pages/contacto.html">contacto</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar  navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">
+                <img class="logo" src="../assets/varios/logo.png" alt="logo mano cornuta">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <svg xmlns="http://www.w3.org/2000/svg" height="2rem"
+                fill="none" viewBox="0 0 24 24" strokeWidth={1.5} 
+                stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3.75
+                 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                  </svg>
+                </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/sobre_nosotros.html   ">Sobre nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/galeria.html">Galeria</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/tienda.html">Tienda</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/contacto.html">Contacto</a>
+                  </li>
+                </div>
+            </div>
+          </nav>
     </header>
-
-    <main class="main">
+     <!---------------------------------Comienzo del Main----------------------------------------------->
+     <div class="div-grid-container">
+        <main class="main">
         <h1>
-            Las bandas del fin del milenio que hicieron historia //de la A a la Z//
+            BON JOVI
         </h1>
         <div class="abecedario">
-        <a href="../index.html">A</a><a href="./B">B</a><a href="#gotoC">C</a><a href="#gotoD">D</a><a href="#gotoE">E</a><a href="#gotoF">F</a><a href="#gotoG">G</a><a href="#gotoH">H</a><a href="#gotoI">I</a><a href="#gotoJ">J</a><a href="#gotoK">K</a><a href="#gotoL">L</a><a href="#gotoM">M</a><a href="#gotoN">N</a><a href="#gotoO">O</a><a href="#gotoP">P</a><a href="#gotoQ">Q</a><a href="#gotoR">R</a><a href="#gotoS">S</a><a href="#gotoT">T</a><a href="#gotoU">U</a><a href="#gotoV">V</a><a href="#gotoW">W</a><a href="#gotoX">X</a><a href="#gotoY">Y</a><a href="#gotoZ">Z</a>
+        <a href="./A">A</a><a href="#">B</a><a href="#gotoC">C</a><a href="#gotoD">D</a><a href="#gotoE">E</a><a href="#gotoF">F</a><a href="#gotoG">G</a><a href="#gotoH">H</a><a href="#gotoI">I</a><a href="#gotoJ">J</a><a href="#gotoK">K</a><a href="#gotoL">L</a><a href="#gotoM">M</a><a href="#gotoN">N</a><a href="#gotoO">O</a><a href="#gotoP">P</a><a href="#gotoQ">Q</a><a href="#gotoR">R</a><a href="#gotoS">S</a><a href="#gotoT">T</a><a href="#gotoU">U</a><a href="#gotoV">V</a><a href="#gotoW">W</a><a href="#gotoX">X</a><a href="#gotoY">Y</a><a href="#gotoZ">Z</a>
         </div>
-        <h2>
-            <a name="gotoB">BON JOVI</a>
-        </h2>
+       
     </main>
         <div class="video-container">
-        <iframe src="../assets/BON JOVI.mp4" frameborder="0" autoplay="false"></iframe>
+        <iframe src="../assets/videos/BON JOVI.mp4" frameborder="0"></iframe>
         </div>
         <aside class="aside">
             <p>
-                Jon Francis Bongiovi, más conocido como Jon Bon Jovi, nace en 1962 en Perth Amboy, New Jersey. Hijo de Frank Bongiovi (ex-marine), su madre, una antigua miss, intenta adentrarle en el mundo de la música, pero el tema no le atrae hasta varios años después, tras asistir a algunos conciertos.
+                Jon Bon Jovi, nacido en 1962 en Perth Amboy, New Jersey, se introdujo en la música gracias a su madre, una antigua miss, y asistió a conciertos que finalmente le atrajeron. Inició su carrera en la banda de rythm'n'blues, Atlantic City Expressway, en New Jersey, donde conoció a Dave Bryan. Posteriormente, cambian su nombre a The Rest, y durante un concierto, el primo de Jon, Tony Bongiovi, dueño del estudio de grabación Power Station, los vio.
 
-                Comienza a tocar en una banda de rythm'n'blues, Atlantic City Expressway, conocida en el ambiente musical de New Jersey. Conoce a Dave Bryan, con quien colaborará después en proyectos de mayor calado. Más tarde se cambian el nombre por The Rest, y durante un concierto, acude a verlos el primo de Jon,Tony Bongiovi, el cual posee un estudio de grabación bastante conocido, Power Station, en el cual han grabado ilustres grupos y cantantes. Era finales de los 80 y a Jon no acababa de convencerle su situación musical, así que decide irse a vivir con su primo a Nueva York durante un par de años.
+                En Nueva York, viviendo con su primo, Jon tuvo la oportunidad de ver a grandes artistas grabar en Power Station, y grabó una maqueta con la canción "Runaway", que más tarde se convertiría en un gran éxito.
 
-                Tiene la posibilidad de ver grabar a grandes artistas: Queen, David Bowie, Talking Heads, The Rolling Stones, Ramones... y consigue grabar una maqueta con un tema, Runaway, que tiempo después sería un gran éxito.
+                Con Dave Bryan, creó el grupo Wild Ones, que no tuvo éxito en vivo ni el apoyo de discográficas. Luego, llevó una cinta con "Runaway" a WAPP FM, que la incluyó en un disco de nuevos grupos, obteniendo ofertas de compañías discográficas.
 
-                Junto a Dave Bryan crea un grupo, Wild Ones, que resultó ser un fracaso en sus actuaciones en directo y que no fue capaz de conseguir el patrocinio de ninguna discográfica.
+                En 1983, Jon firmó un contrato con Polygram y formó Bon Jovi con David Bryan, Alec John Such, el baterista Hector "Tico" Torres y el guitarrista Richie Sambora. Su primer disco en 1984 incluyó el éxito "Runaway". El segundo álbum en 1985, "7800 Degrees Farhenheit", fue menos exitoso, pero el tercero, "Slippery When Wet" en 1986, los llevó al número uno en las listas y una gira mundial de un año.
 
-                Llevó una cinta de Runaway a la estación WAPP FM, la cual la incluyó en un disco de nuevos grupos. Su tema fue muy bien acogido por el público y obtuvo varias ofertas de compañias discográficas. Finalmente, en julio de 1983, firma un contrato con Polygram, que le da libertad para contratar a los músicos que considere necesarios para la creación de su nueva banda, Bon Jovi. Jon recluta a su amigo David Bryan y al bajista Alec John Such. A instancia de éste último, contrataron al batería Hector "Tico" Torres, completando la bando el guitarrista Richie Sambora.
+                En 1988, publicaron "New Jersey" con éxito. En 1990, Jon lanzó "Blaze Of Glory", la banda sonora de la película "Arma Joven", ganando un premio Oscar. En 1992, con "Keep The Faith", volvieron a ser número uno y maduraron musicalmente.
 
-                Su primer disco sale en 1984, y el primer single fue Runaway, su primer éxito. Consiguieron un notable resultado en ventas, a pesar de ser un grupo de rock duro, menos acostumbrados a vender.
+                En 1995, el recopilatorio "Cross Road" los llevó de nuevo a lo más alto con canciones nuevas. En 2000, "Crush" no tuvo tanto éxito como sus trabajos anteriores. En 2001, lanzaron su primer disco en directo, "Wild Wild Night".
 
-                El segundo disco, 7800 Degrees Farhenheit aparece en 1985. Tuvo un resultado más discreto y hubo que esperar al tercer álbum, Slippery When Wet (1986), para ver el triunfo definitivo de la banda. Con este trabajo consiguieron llegar al número uno de las listas de éxitos y propició una gira de más de un año por todo el mundo.
-
-                En 1988 publican New Jersey, una repetición de la fórmula empleada en el disco anterior y que les sirvió para repetir con un rotundo éxito. Un disco cargado de sentimiento en el que se refleja una mayor madurez del grupo, probando nuevos estilos. La gira para este disco es muy larga (en mitad de la cual Jon se casa con Dorothea Hurley,a quien conoció cuando estudiaba) y acaba crispando a los miembros de la banda que deciden tomarse un descanso.
-
-                En 1990 sale a la luz Blaze Of Glory de Jon Bon Jovi, la banda sonora de la película Arma Joven, con la que Jon optó al Oscar de Hollywood y con el que ganó el premio al mejor single de los premios Award.
-
-                En 1992, tras cambiar de mánager, publican Keep The Faith, llegando nuevamente a ser número uno y quizás el mejor del grupo. El ritmo se endureció un poco y las letras maduraron. Con esta renovación se incrementaron los fans de la banda, llegando a vender diez millones de copias del disco.
-
-                En 1995 sale a la luz el recopilatorio Cross Road en el que graban dos temas nuevos Someday I'll Be Saturday Night y la balada Always que de nuevo les encumbra a lo más alto de las listas. En solo cinco semanas llegaron a vender cinco millones de copias. En esta época Alec deja el grupo y contrata al bajista Huey McDonald para ocupar su lugar.
-
-                En mayo de 2000 lanzan Crush con un It's My Life como single, pero no consigue tanto éxito como en los anteriores.
-
-                La canción de Crush Wild Wild Night da nombre a su primer disco en directo que sale en el año 2001, el cual icluye una versión del tema de Bob Geldof I Don't Like Mondays.
-
-                En 2002 publican un nuevo álbum, Bounce. 12 nuevas composiciones, tanto baladas como temas rockeros, hacen uso de la narrativa y música de éxitos anteriores del grupo. Grabado en el Estado natal del grupo, Nueva Jersey, el disco muestra a Jon Bon Jovi y a Richie Sambora como productores junto a Luke Ebbin.
-
-                2003 es el año de This left feels right, un disco en acústico en el que presentan una nueva visión de muchos de sus grandes éxitos.
-            </p>
+                En 2002, publicaron "Bounce" y en 2003, "This Left Feels Right", un álbum acústico con versiones de sus éxitos anteriores.
         </aside>
         <section class="section">
-            <h3>Ciudad de surgimiento de la banda </h3>
-            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48527.91324515759!2d-74.31034725567416!3d40.51961093265215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3b580bd90cf71%3A0x5ec1edff2ec8c9f1!2sPerth%20Amboy%2C%20Nueva%20Jersey%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1695583761494!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h2>
+                Surgimiento de la banda
+            </h2>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48527.91324515759!2d-74.31034725567416!3d40.51961093265215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3b580bd90cf71%3A0x5ec1edff2ec8c9f1!2sPerth%20Amboy%2C%20Nueva%20Jersey%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1697329433465!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
-
-    <!--Titulo principal del sitio-->
-    <footer class="footer">
+        <div class="index__playlist">
+          <h2>
+            Escucha un poco mas y seguilos en SPOTIFY!!
+        </h2>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/58lV9VcRSjABbAbfWS6skp?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+      
+         <!--------------------------------------Comienzo del footer-------------------------------------->
+        <footer class="footer">
         <div class="footer-container">
             <!--Enlaces de redes sociales -->
             <div class="social-links">
-                <a href="https://www.facebook.com/?locale=es_LA" target="_blank">Facebook</a>
-                <a href="https://twitter.com/?lang=es" target="_blank">Twitter</a>
-                <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+              <a href="https://www.facebook.com/?locale=es_LA" target="_blank"><i class="fa-brands fa-facebook fa-fade"></i></a>
+              <a href="https://twitter.com/?lang=es" target="_blank"><i class="fa-brands fa-x-twitter fa-fade"></i></a>
+              <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-fade"></i></a>
             </div>
 
             <!--Enlaces a políticas legales -->
@@ -108,11 +117,12 @@
 
             <!--Información de contacto de soporte -->
             <div class="support-contact">
-                Soporte: <a href="tel:+541155556666">(+54) 911-5555-6666</a> | <a href="mailto:soporte@anticentennial.com.ar">soporte@anticentennial.com.ar</a>
+                <a href="tel:+541155556666">Soporte: (+54) 911-5555-6666</a> | <a href="mailto:soporte@anticentennial.com.ar">soporte@anticentennial.com.ar</a>
             </div>
         </div>
     </footer>
     </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    </body>
+</body>
 </html>
