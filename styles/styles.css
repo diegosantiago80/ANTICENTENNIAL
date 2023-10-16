@@ -137,25 +137,6 @@ h2 {
     padding: 0 20px; 
 }
 
-@media (min-width: 320px) and (max-width:1200px) {
-  .video-container,
-  iframe {
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto; 
-  }
-  .aside,
-  .section,
-  .index__playlist {
-    width: 100%;
-    max-width: 100%;
-  }
-  .map {
-    width: 100%; 
-    margin: auto;
-  }
-}
-
 
 
 h1{
@@ -392,19 +373,32 @@ input[type="reset"]:focus{
         "index__playlist"
         "footer";
     }
-    .video-container,
-    .aside,
-    .section {
-      margin: 20px;
-      width: 100%;
-    }
+  
     .main {
       margin-top: 20px;
     }
+    .video-container,
+  iframe {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto; 
+  }
+  .aside,
+  .section,
+  .index__playlist {
+    width: 100%;
+    max-width: 100%;
+  }
+  .map {
+    width: 100%; 
+    margin: auto;
+  }
+
   }
 
 
   
+
   
 
   /************************************** Estilos para el formulario **************************************/
