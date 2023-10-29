@@ -1,0 +1,45 @@
+
+/* Estilo para el footer ***********************************************************************************/
+
+footer {
+  background-color: $supernegro;
+  text-align: center;
+  padding: 25px;
+
+  /* Pseudoclases */
+  .social-links a:hover,
+  .copyright a:hover,
+  .scroll-to-top:hover,
+  .legal-links a:hover,
+  .support-contact a:hover {
+    font-weight: $negrita;
+  }
+
+  input:focus {
+    background-color:$color-secundario;
+  }
+
+  textarea:focus {
+    background-color: $color-secundario;
+  }
+
+  input[type="submit"]:focus {
+    background-color: $supernegro;
+  }
+
+  input[type="reset"]:focus {
+    background-color:$supernegro;
+  }
+}
+
+/* Estilo para el contenedor del footer */
+.footer-container {
+  text-align: center;
+  margin: 0 auto;
+
+  /* Estilo para cada elemento del footer */
+  > div {
+    display: inline-block;
+    margin-right: 30px;
+  }
+}

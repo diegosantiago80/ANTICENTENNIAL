@@ -1,0 +1,33 @@
+/*estilo para galeria*/
+
+.grid-container-img {
+  display: grid;
+  margin: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 220px);
+  grid-template-areas:
+    "foto1-foto2-foto3-foto4"
+    "foto5-foto6-foto7-foto8"
+    "foto9-foto10-foto11-foto12";
+  grid-gap: 10px;
+
+  div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /*********responsive en galería***************/
+  @media (min-width: 320px) and (max-width: 1200px) {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+
+    div img {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+}
+
+

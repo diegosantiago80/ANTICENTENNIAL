@@ -1,0 +1,13 @@
+/*estilo para seccion "sobre nosotros"*/
+
+.sobre_nosotros__banner img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .sobrenosotros{
+    @include textos(large,10%,10%,10px)
+  }
+  
+  
+  

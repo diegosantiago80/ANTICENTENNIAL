@@ -1,0 +1,37 @@
+/* Estilos para la tienda */
+
+.tienda {
+    color: $color-titulos;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  h3 {
+    color: $color-titulos;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  p {
+    color: $color-titulos;
+  }
+/* Estilos de las tarjetas con Bootstrap */
+.card img {
+    max-width: 100%;
+    height: auto;
+    }
+    
+    .detail {
+    background-color: $supernegro;
+    color: white;
+    }
+    
+    .add {
+    background-color: $supernegro;
+    color: white;
+    }
+    
+    .card {
+    background-color: grey;
+    margin-bottom: 10px;
+    }  

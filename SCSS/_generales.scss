@@ -1,0 +1,51 @@
+/*estilos generales*/
+
+h1{
+    margin: 0 auto;
+    margin-top: 10px;
+    @include nombres($color-titulos,center);
+    
+  }
+
+
+  
+h2{
+    @include nombres($color-titulos,center);
+}
+
+.logo{
+    width: 40%;
+  }
+  
+  
+body{
+      font-family: 'Raleway', sans-serif;
+      background-image: url(../assets/varios/fondocuero.jpg);
+  }
+  
+  
+.abecedario {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: large;
+        &hover{
+            font-weight: 700;
+        }
+        a{
+            text-decoration: none;
+            padding: 10px;
+            flex: 1;
+            text-align: center;
+            border: 1px solid #000;
+            min-width: 50px; 
+        }
+}
+
+.index__parrafo{
+  @include textos(large,10%,10%,10px)
+}
+  
+    
+  

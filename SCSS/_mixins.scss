@@ -1,0 +1,15 @@
+/*MIXINS*/
+
+@mixin nombres($titulos,$ubicacion){
+    color:$titulos;
+    text-align:$ubicacion;
+}
+
+@mixin textos($tam,$izquierda,$derecha,$arriba){
+    font-size: $tam;
+    padding-left: $izquierda;
+    padding-right: $derecha;
+    margin-top: $arriba;
+}
+
+

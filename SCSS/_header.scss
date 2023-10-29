@@ -1,0 +1,33 @@
+/*estilo navbar********************************************************************************************/
+
+.navbar {
+  background-color:$supernegro;
+  
+  .nav-link {
+    color: $color-titulos !important;
+  }
+
+  .navbar-toggler {
+    color: $color-titulos !important;
+    border: none !important;
+
+    &:focus {
+      box-shadow: none !important;
+    }
+  }
+
+  .navbar-nav {
+    .nav-item {
+      margin-right: 90px;
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+  background-color: $supernegro;
+  color: slategray;
+  &:hover{
+    font-weight: $negrita;
+  }
+}
