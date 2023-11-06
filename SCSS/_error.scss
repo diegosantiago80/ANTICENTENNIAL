@@ -1,0 +1,16 @@
+/*estilo pagina error*/
+
+.body__error{
+    background-image: url(../assets/varios/mustain.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+}
+
+
+.box-error {
+    p{@include nombres(gray,center);
+    font-size: xx-large;
+    }
+}

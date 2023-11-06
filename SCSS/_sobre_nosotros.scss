@@ -6,7 +6,8 @@
   }
 
   .sobrenosotros{
-    @include textos(large,10%,10%,10px)
+    @include textos(large,10%,10%,10px);
+    background-color:$supernegro;
   }
   
   

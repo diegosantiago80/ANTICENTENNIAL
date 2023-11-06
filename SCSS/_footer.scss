@@ -9,12 +9,69 @@ footer {
   /* Pseudoclases */
   .social-links a:hover,
   .copyright a:hover,
-  .scroll-to-top:hover,
   .legal-links a:hover,
   .support-contact a:hover {
-    font-weight: $negrita;
+    transform: scale(1.2);
+    transition: transform 0.2s; 
   }
-
+  
+  .scroll-to-top a{
+  margin-top: 20px;
+  position: relative;
+  width: 120px;
+  height: 40px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+  padding: 12px;
+  gap: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 1;
+  }
+  
+  .scroll-to-top ::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    left: -4px;
+    top: -1px;
+    margin: auto;
+    width: 128px;
+    height: 48px;
+    border-radius: 10px;
+    background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100% );
+    z-index: -10;
+    pointer-events: none;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .scroll-to-top ::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );
+    transform: translate3d(0, 0, 0) scale(0.95);
+    filter: blur(20px);
+  }
+  
+  .scroll-to-top :hover::after {
+    filter: blur(30px);
+  }
+  
+  .scroll-to-top :hover::before {
+    transform: rotate(-180deg);
+  }
+  
+  .scroll-to-top :active::before {
+    scale: 0.7;
+  }
+  
   input:focus {
     background-color:$color-secundario;
   }
@@ -43,3 +100,4 @@ footer {
     margin-right: 30px;
   }
 }
+
